@@ -1,0 +1,46 @@
+body{
+    background-color: blanchedalmond;
+    color: blue;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+input{
+      border-radius: 5px; 
+    background-color:gainsboro; 
+    box-shadow: cornflowerblue;
+    width: 400px;
+    color: black;
+    height: 20px;
+     
+}
+select{
+    color: blue;
+    background-color: midnightblue;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-color: gray;
+        display: block;
+    }
+    
+}
+    
+}
+textarea{
+    border-radius: 5px;
+    box-shadow: darkcyan;
+    background-color: rgb(133, 133, 146);
+}
+button{
+    height: 30px;
+    width: 150px;
+    background-color: green;
+    font-style: oblique;
+    border-radius: 5px;
+}
